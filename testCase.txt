@@ -1,0 +1,40 @@
+Create_room r1 -Mafia 7 -GodFather 1 -Silencer 2 -Villager 7 -Doctor 6 -Detective 3 -RouinTan 1 -Joker 2
+Create_room r2 -Mafia 3 -Silencer 2 -Villager 9 -RouinTan 1
+Create_room r3 -Mafia 7 -GodFather 1 -Silencer 2 -Villager 7 -Doctor 6 -Detective 3 -RouinTan 1 -Joker 2
+Switch_room r2
+Get_room_state
+Join 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+Vote 1 2
+Vote 3 4
+Vote 1 6
+End_vote
+Vote 1 1
+Vote 2 1
+Vote 3 1
+Vote 4 1
+Vote 5 3
+Vote 6 1
+Vote 7 2
+Vote 8 1
+Vote 9 1
+Vote 10 1
+Vote 11 1
+Vote 12 1
+Vote 13 1
+Vote 14 1
+Vote 15 1
+Silent 1 5
+Silent 2 5
+Silent 3 5
+Silent 4 5
+Silent 5 5
+Silent 6 5
+Silent 7 5
+Silent 8 5
+Silent 9 5
+Silent 10 4
+Silent 11 4
+Silent 12 4
+Silent 13 4
+Silent 14 4
+Silent 15 4
